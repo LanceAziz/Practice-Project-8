@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="text-light bg-dark">
+    <section>
+        <div class="container-fluid">
+            <div class="row py-5">
+                <div class="col-md-6 bg-black mx-auto p-5 text-center shadow rounded-3">
+                    <div class="item">
+                        <h2 class="py-4 fa-3x">Smart Login System</h2>
+                        <input id="SignInEmail" class="form-control text-light bg-dark my-2" placeholder="Enter Your E-mail" type="text">
+                        <input id="SignInPass" class="form-control text-light bg-dark my-2" type="password" placeholder="Enter Your Password" type="text">
+                        <p id="SignInError" class="text-light p-1 bg-danger rounded-2 w-25 mx-auto d-none">All Inputs Are Required</p>
+                        <p id="SignInInvalid" class="text-light p-1 bg-danger rounded-2 w-25 mx-auto d-none">Invalid</p>
+                        <div class="signUpPromt d-grid gap-5">
+                            <button id="SignInBtn" class="btn btn-outline-light my-2 py-2">LogIn</button>
+                            <div class="d-flex justify-content-center py-2 d-grid gap-2">
+                                <p>Don't have an account?</p>
+                                <a href="SignUp.html" class="text-light non-underline">SignUp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/SignIn.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="text-light bg-dark">
+    <section>
+        <div class="container-fluid">
+            <div class="row py-5">
+                <div class="col-md-6 bg-black mx-auto p-5 text-center shadow rounded-3">
+                    <div class="item">
+                        <h2 class="py-4 fa-3x">Smart Login System</h2>
+                        <input id="SignUpName" class="form-control text-light bg-dark my-2" placeholder="Enter Name" type="text">
+                        <input id="SignUpEmail" class="form-control text-light bg-dark my-2" placeholder="Enter E-mail" type="text">
+                        <input id="SignUpPass" type="password" class="form-control text-light bg-dark my-2" placeholder="Enter Password" type="text">
+                        <p id="SignUpError" class="text-light p-1 bg-danger rounded-2 w-25 mx-auto d-none text-center">All Inputs Are Required</p>
+                        <p id="SignUpNonExist" class="text-light p-1 bg-danger rounded-2 w-25 mx-auto d-none text-center">Already Exist</p>
+                        <p id="SignUpSuccess" class="text-light p-1 bg-success rounded-2 w-25 mx-auto d-none text-center">Success</p>
+                        <div class="signUpPromt d-grid gap-5">
+                            <button id="SignUpBtn" class="btn btn-outline-light my-2 py-2">SignUp</button>
+                            <div class="d-flex justify-content-center py-2 d-grid gap-2">
+                                <p>Don't have an account?</p>
+                                <a href="index.html" class="text-light non-underline"> SignIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/SignUp.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
